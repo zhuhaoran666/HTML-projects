@@ -1,0 +1,311 @@
+.lf{
+    float: left;
+}
+.rf{
+    float: right;
+}
+.w1200{
+    width: 1200px;
+    margin:0 auto;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.shortcut{
+    height: 30px;
+    background-color: #f1f1f1;
+    line-height: 30px;
+}
+.shortcut-left .register{
+    color: red;
+}
+.shortcut-left li{
+    float: left;
+}
+.shortcut-right li{
+    float: left;
+}
+.spacer{
+    width: 1px;
+    height: 14px;
+    margin: 8px 10px;
+    background-color: #3e3e3e;
+}
+.header{
+    height: 142px;
+    position: relative;
+}
+.header .log {
+    position: absolute;
+    top: 40px;
+    width: 171px;
+    overflow: hidden;
+}
+
+.header .search{
+    position: absolute;
+    top: 40px;
+    left: 332px;    
+}
+.header .search-box{
+    border: 2px solid red;
+}
+.header .text{
+    border: none;
+    outline: none;
+    height: 32px;
+    width: 452px;
+    text-indent: 15px;
+}
+.header .btn{
+    margin: 0px 0px;
+    border: none;
+    outline: none;
+    background-color: red;
+    height: 32px;
+    width: 80px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.header .hot-word li{
+    float: left;
+    font-size: 10px;
+    margin: 10px 10px;
+}
+.header .hot-word .first-text{
+    color: red;
+}
+.header .car{
+    position: absolute;
+    width: 122px;
+    height: 34px;
+    top: 40px;   
+    right: 0px;
+    line-height: 34px;
+    text-align: center;
+    border: 2px solid rgb(149, 146, 146);
+}
+.header .car i{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+}
+.navlist-container{
+    height: 40px;
+    border-bottom:  2px solid red;
+}
+.navlist-container .all-clssify{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background-color: red;
+}
+.navlist-container .all-clssify .title{
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: none;
+}
+.navlist-container .nav-list li{
+    float: left;
+    color: #666;
+    margin-left: 40px;
+}
+.navlist-container .nav-list{
+    height: 40px;
+    width: 936px;
+    font-weight: none;
+    font-size: 16px;
+    line-height: 40px;
+}
+.all-clssify .class-tree{
+    color: white;
+}
+.class-tree li{
+    width: 200px;
+    top: 40px;
+    height: 31px;
+    font-size: 14px;
+    text-indent: 20px;
+    background-color: #b1191a;
+    width: 200px;
+}
+.class-tree a{
+    color: white;
+}
+
+.main .banner{
+    width: 721px;
+    margin-top: 8px;
+    margin-left: 210px;
+}
+.main .banner{
+    width: 100%;
+}
+.main .new-flash{
+    margin-right: 215px;
+    width: 250px;
+}
+.main .news{
+    border: 2px solid #ccc;
+}
+.main .news .title{
+    padding: 0 10px;
+    height: 30px;
+    border-bottom: 2px solid #ccc;
+}
+.main .news .content{
+    width: 250px;
+}
+.main .news .content li{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+    font-size: 12px;
+}
+.main .services-lift{
+    border-right:1px solid #ccc;
+}
+.main .services-lift li{
+    height: 71px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.main .services-lift li i{
+    height: 28px;
+    width: 23px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+    background: url(../image/iphone-icon.png);
+    background-repeat: no-repeat;
+}
+.main .bargin{
+    margin-top: 8px;
+    width: 250px;
+}
+.bargin img{
+    width: 100%;
+}
+.seckill  {
+    margin-top: 15px;
+    overflow: hidden;
+}
+.seckill .count-down{
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}
+.seckill .title{
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.seckill .time span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: black;
+}
+.seckill .count-down{
+    width: 200px;
+    height: 160px;
+}
+.goods-list li{
+    float: left;
+    overflow: hidden;
+}
+.seckill .goods-list img{
+    margin-left: 10px;
+    width: 238.5px;
+    height: 160px;
+}
+.deital-container{
+    margin-top: 30px;
+    background-color: #eee;
+    padding: 20px 0 60px;
+}
+.deital-container .goods-detail .title{
+    height: 80px;
+    line-height: 80px;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+}
+.goods-detail .banner{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.goods-detail .banner img{
+    width: 100%;
+}
+.goods-detail .goods-banner{
+    width: 228px;
+}
+.goods-detail .goods-banner img{
+    width: 100%;
+}
+.goods-detail .good-list{
+    float: left;
+    width: 972px;
+}
+.goods-detail .good-list li{
+    height: 283px;
+    width: 233px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 20px 30px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #fff;
+    text-align: center;
+}
+.goods-detail .good-list img{
+    height: 173px;
+    width: 173px;
+}
+.goods-detail .good-list .name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.goods-detail .good-list .price .current{
+    color: #ff4040;
+}
+.goods-detail .good-list .price .old{
+    text-decoration: line-through;
+    color: #ccc;
+}
+.footer{
+    text-align: center;
+}
+.footer .help-list {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer .help-list h4{
+    margin: 5px;
+}
+.footer .copyright{
+    margin-top: 10px;
+}

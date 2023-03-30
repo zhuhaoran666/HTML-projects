@@ -1,0 +1,193 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+body{
+    overflow-x:hidden;
+    height: 1500px;
+    width:  2000px;
+    background-image: url(../images/背景.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.main .left{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.main .right{
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+.main .mid{
+    padding-bottom: 100px;
+    width: 1110px;
+    background-color: rgb(140, 138, 135);
+    opacity: 80%;
+    float: left;
+}
+.mid .midtop::after{
+    border: "";
+    display: block;
+    clear: both;
+}
+.mid .personinfo{
+    width: 70%;
+    float: left;
+}
+.mid .personinfo .photo{
+    margin: 50px 30px;
+    border: 5px solid rgb(245, 54, 165);
+    float: left;
+}
+.mid .personinfo .info{
+    padding-top: 50px;
+    float: left;
+}
+.mid .personinfo h3{
+
+    font-family: "宋体";
+    color:white;
+    padding: 10px 10px;
+}
+.mid .name{
+    padding: 10px 10px;
+    font-size: 14px;
+}
+.mid .dis{
+    padding: 30px 10px;
+    font-size: 14px;
+}
+.mid .grade{
+    padding-top: 50px;
+    width: 30%;
+    float: right;
+    
+}
+.mid .grade img{
+    width: 70px;
+    float: left;
+}
+.mid .grade p{
+    margin-top: 15px;
+    padding: 0px 10px;
+    width: 80px;
+    float: left;
+    color: #fff;
+}
+.infobutton{
+    margin-top: 15px;
+    height: 35px;
+    padding: 0 10px;
+    color: #fff;
+    background-color: rgb(133, 90, 186);
+    cursor: pointer;
+    float: left;
+}
+.grade .badge{
+    padding: 5px 10px;
+    float: left;
+    width: 250px;
+    background-color: rgb(103, 97, 97)
+}
+.grade h3{
+    font-family: "黑体";
+    color:black;
+    padding: 20px 0px;
+}
+.lmain{
+    padding: 0px 10px;
+    width: 68%;
+    float: left;
+}
+.rmain{
+    background-color: rgb(14, 21, 57);
+    width: 30%;
+    float: right;
+}
+.lmain h3{
+    padding: 0px 10px;
+    background-color: rgb(166, 180, 211);
+}
+.lmain .box img{
+    background-color: none;
+    margin: 10px 10px;
+    border: 2px solid #fff;
+    float: left;
+}
+.box{
+    background-color: rgb(14, 21, 57);
+    height: 150px;
+}
+.lmain .box h1{
+    padding: 40px 40px;
+    float: left;
+    color: #fff;
+}
+.lmain ul{
+    float: right;
+}
+.lmain li{
+    float: left;
+    padding: 20px 20px;
+}
+.lmain .box h5{
+    float: left;
+}
+.rmain h3{
+    color: aqua;
+    margin-bottom: 30px;
+}
+.rmain li{
+    padding: 10px 5px;
+}
+.rmain img{
+    padding: 10px 5px;
+}
+.footer{
+    height: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
+.game{
+    height: 120px;
+    background-color: rgb(123, 115, 115);
+}
+.game img{
+    margin: 10px 10px;
+    float: left;
+}
+.game h4{
+    padding: 35px 30px;
+    float: left;
+}   
+.game h5{
+    padding: 0px 30px;
+    float: right;
+}
+.lmain p{
+    font-size: 15px;
+    padding: 15px 25px;
+    color: white;
+    background-color: rgb(64, 62, 62);
+}
+.lmain .achieve img{
+    width: 100%;
+    padding: 5px;
+    float: right;
+}
